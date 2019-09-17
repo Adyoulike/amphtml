@@ -125,6 +125,10 @@ const adConfig = jsonConfiguration({
     prefetch: 'https://i.socdm.com/sdk/js/adg-script-loader.js',
   },
 
+  'adglare': {
+    renderStartImplemented: true,
+  },
+
   'adhese': {
     renderStartImplemented: true,
   },
@@ -914,6 +918,12 @@ const adConfig = jsonConfiguration({
   },
 
   'smi2': {
+    renderStartImplemented: true,
+  },
+
+  'smilewanted': {
+    prefetch: 'https://prebid.smilewanted.com/amp/amp.js',
+    preconnect: 'https://static.smilewanted.com',
     renderStartImplemented: true,
   },
 
