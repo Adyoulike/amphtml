@@ -243,6 +243,11 @@ const RTC_VENDORS = jsonConfiguration({
     macros: ['TAG_ID', 'CONSENT_STRING', 'ACCOUNT_ID'],
     disableKeyAppend: true,
   },
+  adyoulike: {
+    url:'https://broker-preprod.omnitagjs.com/broker/amp?placementId=PLACEMENT_ID',
+    macros: ['PLACEMENT_ID'],
+    disableKeyAppend: true,
+  }
 });
 
 // DO NOT MODIFY: Setup for tests
